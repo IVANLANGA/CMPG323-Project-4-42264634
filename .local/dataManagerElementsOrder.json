@@ -12,10 +12,13 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "ProjectsData&Sequence_1",
-        "variable1&Sequence_1",
+        "variable2&Sequence_1",
+        "TestPassed&Sequence_10",
+        "outputElement&Sequence_1",
+        "ClientsData&Sequence_1",
         "_null&Sequence_1",
-        "ClientsData&Sequence_1"
+        "variable1&Sequence_1",
+        "ProjectsData&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],

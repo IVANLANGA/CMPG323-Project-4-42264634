@@ -221,7 +221,7 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="593,2441" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="593,2680" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="ClientsData" />
       <Variable x:TypeArguments="x:String" Name="_null" />
@@ -245,20 +245,27 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:ReadRange AddHeaders="True" DataTable="[ProjectsData]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="531,120" sap2010:WorkflowViewState.IdRef="ReadRange_4" Range="Projects" SheetName="Projects" WorkbookPath="NWU Tech Trends Data.xlsx" />
     <ui:ReadRange AddHeaders="True" DataTable="[ClientsData]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="531,120" sap2010:WorkflowViewState.IdRef="ReadRange_3" Range="Clients" SheetName="Clients" WorkbookPath="NWU Tech Trends Data.xlsx" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: telemetryportal20240824131732.azurewebsites.net/create-client" sap:VirtualizedContainerService.HintSize="531,2082" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" OutUiElement="[outputElement]" ScopeGuid="bb13015b-a7cc-4e57-9891-fe420d9aa839" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: telemetryportal20240824131732.azurewebsites.net/create-client" sap:VirtualizedContainerService.HintSize="531,2321" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" OutUiElement="[outputElement]" ScopeGuid="bb13015b-a7cc-4e57-9891-fe420d9aa839" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1842" sap2010:WorkflowViewState.IdRef="Sequence_9">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,2081" sap2010:WorkflowViewState.IdRef="Sequence_9">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_11" Url="https://telemetryportal20240824131732.azurewebsites.net/Account/Login?ReturnUrl=%2FAccount%2FManage" Version="V4" />
+            <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="354,57" sap2010:WorkflowViewState.IdRef="NGoToUrl_11" Url="https://telemetryportal20240824131732.azurewebsites.net/Account/Login?ReturnUrl=%2FAccount%2FManage" Version="V4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NGoToUrl>
             <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ClientsData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="354,57" sap2010:WorkflowViewState.IdRef="ForEachRow_9">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
@@ -396,6 +403,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEachRow>
+            <ui:WriteCell Cell="E2:E51" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="354,148" sap2010:WorkflowViewState.IdRef="WriteCell_1" SheetName="Clients" Text="TRUE" WorkbookPath="NWU Tech Trends Data.xlsx" />
             <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ProjectsData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="354,57" sap2010:WorkflowViewState.IdRef="ForEachRow_10">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
@@ -536,6 +544,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEachRow>
+            <ui:WriteCell Cell="G2:G46" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="354,148" sap2010:WorkflowViewState.IdRef="WriteCell_2" SheetName="Projects" Text="TRUE" WorkbookPath="NWU Tech Trends Data.xlsx" />
             <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="354,57" sap2010:WorkflowViewState.IdRef="NGoToUrl_4" Url="https://telemetryportal20240824131732.azurewebsites.net/clients" Version="V4">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">

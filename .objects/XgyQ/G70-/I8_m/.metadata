@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge telemetryportal20240824131732.azurewebsi",
+  "Type": "Screen",
+  "Id": "I8_m-boHWEun369ZRaJjYQ",
+  "Reference": "vw9x4a85nUOk7VYF-BCogA/I8_m-boHWEun369ZRaJjYQ",
+  "ParentRef": "vw9x4a85nUOk7VYF-BCogA/G70-GkGb4kug2_9BSGLeug",
+  "Created": "2024-09-09T09:32:14.5158829Z",
+  "Updated": "2024-09-09T09:32:14.5158829Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

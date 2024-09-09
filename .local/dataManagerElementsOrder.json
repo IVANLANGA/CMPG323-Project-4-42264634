@@ -12,14 +12,40 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "variable2&Sequence_1",
         "TestPassed&Sequence_10",
-        "outputElement&Sequence_1",
         "ClientsData&Sequence_1",
         "_null&Sequence_1",
         "variable1&Sequence_1",
-        "ProjectsData&Sequence_1"
+        "ProjectsData&Sequence_1",
+        "outputElement&Sequence_1",
+        "variable2&Sequence_1"
       ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Delete.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Web_page_loaded_successfully&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Update.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Read.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
